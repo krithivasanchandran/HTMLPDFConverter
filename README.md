@@ -1,6 +1,6 @@
 # HTMLPDFConverter
 
-## PDF's are used since there should be a unified way of reading documents regardless of what operating system we use and also regardless of what font types it supports you get a unified and consistent way of reading and sharing documents . 
+## PDF's are used since there should be a unified way of reading documents regardless of what `operating system` we use and also regardless of `what font types it supports you get a unified and consistent way of reading and sharing documents.` 
 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)  `{{ HTML, Image , Website}} to PDF converter`
 
