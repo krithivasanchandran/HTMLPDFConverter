@@ -1,4 +1,4 @@
-package com.billing.paypal.pdf;
+package com.generic.pdf;
 
 import java.io.OutputStream;
 
@@ -22,7 +22,7 @@ public abstract class Exporter {
 		
 		public static void main(String args[])
 		{
-			String str = "GAP_Invoice_Prof_Nov-2019_050644_temp_.pdf";
+			String str = "temp_.pdf";
 		
 			String destintfile = str.split("_temp_")[0];
 
