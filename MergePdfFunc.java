@@ -1,4 +1,4 @@
-package com.billing.paypal.pdf;
+package com.generic.pdf;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
@@ -19,9 +19,9 @@ import com.itextpdf.layout.element.IElement;
 public class MergePdfFunc {
 
 	public static final String[] HTML = { 
-			"C:/Users/krichandran/Desktop/hwoct.html" };
+			"C:/Users/krichandran/Desktop/oct.html" };
 	
-	public static String mergeDest = "C:/Users/krichandran/Documents/hw.pdf";
+	public static String mergeDest = "C:/Users/krichandran/Documents/generic.pdf";
 
 	public static void main(String args[]) {
 
