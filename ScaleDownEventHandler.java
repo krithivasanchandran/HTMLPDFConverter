@@ -1,4 +1,4 @@
-package com.billing.paypal.pdf;
+package com.generic.pdf;
 
 import com.itextpdf.kernel.events.Event;
 import com.itextpdf.kernel.events.IEventHandler;
