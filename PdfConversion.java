@@ -1,4 +1,4 @@
-package com.billing.paypal.pdf;
+package com.generic.pdf;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -31,8 +31,8 @@ public class PdfConversion {
 	
 	public static void main(String args[]){
 		
-		String SRC = "C:/Users/krichandran/Desktop/html69888677_prof_Other_charges.html";
-		String DEST = "C:/Users/krichandran/Documents/hyperwallet.pdf";
+		String SRC = "C:/Users/krichandran/Desktop/html.html";
+		String DEST = "C:/Users/krichandran/Documents/genericwallet.pdf";
 		
 		try {
 			File file = new File(DEST);
