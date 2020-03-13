@@ -1,4 +1,4 @@
-package com.billing.paypal.pdf;
+package com.generic.pdf;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileNotFoundException;
@@ -32,7 +32,7 @@ public class IndividualMergePDFFunctionality {
 
 	public static void main(String[] args) throws Exception {
 
-		String SRC = "C:/Users/krichandran/Documents/gap_inv_withprint_css.html";
+		String SRC = "C:/Users/krichandran/Documents/inv_withprint_css.html";
 		// String SRC2 = "C:/Users/krichandran/Desktop/pinacle.html.txt";
 
 		String DEST = "C:/Users/krichandran/Documents/aabbccdd.pdf";
@@ -182,7 +182,7 @@ public class IndividualMergePDFFunctionality {
 	 */
 	 
 	 /*
-	  * Working Code for - updated_GAP_invoice_.pdf
+	  * Working Code for - generic_invoice.pdf
 	  *
 	 
 	 public static void ManipulatePdf(String src, String dest) throws FileNotFoundException, java.io.IOException {
@@ -251,7 +251,7 @@ public class IndividualMergePDFFunctionality {
 //		PageSize pageSize = PageSize.A4;
 //		pdfDocument.setDefaultPageSize(pageSize);
 //
-//		HtmlConverter.convertToPdf(new String(data, "UTF-8").replace("https://www.hyperwallet.com/app/uploads/hyperwallet-logo.svg", "C:/Users/krichandran/workspace/IndividualHTMLtoPDFConverter/hyperwalletlogo/hyperwallet-logo.svg"), pdfDocument, converterProps);
+//		HtmlConverter.convertToPdf(new String(data, "UTF-8").replace("https://www.generic.com/app/uploads/generic-logo.svg", "C:/Users/krichandran/workspace/IndividualHTMLtoPDFConverter/genericlogo/generic-logo.svg"), pdfDocument, converterProps);
 //
 //		pdfDocument = new PdfDocument(new PdfReader(new ByteArrayInputStream(bOutStream.toByteArray())));
 //
