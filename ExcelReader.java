@@ -1,4 +1,4 @@
-package com.billing.paypal.pdf;
+package com.java.pdf;
 
 import java.io.File;
 import java.io.FileInputStream;
